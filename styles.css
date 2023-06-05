@@ -1,0 +1,35 @@
+/* just some  styling*/
+body { 
+	text-align: center;
+	color: purple;
+	margin-left: 500px;
+	margin-top:  50px;
+}
+
+.square {
+	background: lightpink;
+	width:   300px;
+	height:  300px;
+
+}
+
+.img {
+	width:  100px;
+	height: 100px;
+	margin-top: 30px;
+	animation: beat .50s infinite alternate;
+  }
+  
+  /* Heart beat animation */
+  @keyframes beat{
+	  to { transform: scale(1.4); }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
